@@ -15,7 +15,7 @@
 
 let listaPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
 let pezBuscado = "Estrella";
-let pezEncontrado = false;
+let pezEncontrado = true;
 let i = 0;
 
 while (!pezEncontrado && i < listaPeces.length - 1) {
