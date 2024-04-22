@@ -15,14 +15,16 @@
  */
 
 /**
- * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+ * Ejecuta el siguiente código e intenta averiguar que está sucediendo. 
+ * CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+ *porque la iteración suma un número más cuando llega a 4 (número total de elementos en el array) y como ese elemento no está definido en el array, se le llama undefined. 
  */
 
-let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];
+let muchosPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
 
-for (let i = 0; i <= muchos_peces.length; i++) {
-  let siguiente_pez = muchos_peces[i];
-  console.log("Pez siguiente: " + siguiente_pez);
+for (let i = 0; i <= muchosPeces.length; i++) {
+  let siguientePez = muchosPeces[i];
+  console.log("Pez siguiente: " + siguientePez);
 }
 
 /**
