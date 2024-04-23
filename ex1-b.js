@@ -9,5 +9,5 @@ let peces = ["Dory", "Nemo", "Estrella"];
  */
 
 
-ultimoPez.at(2); // MODIFICA ESTA LÍNEA
+let = ultimoPez.at(2); // MODIFICA ESTA LÍNEA
 console.log(ultimoPez); // "Estrella"
